@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #212121;
+  padding: 0 0.5rem;
+  margin-right: 2rem;
+}
+
+.input {
+  padding: 0.65rem;
+  font-size: 0.9rem;
+  border: none;
+  outline: none;
+}
+
+.icon {
+  width: 15px;
+  pointer-events: none;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}

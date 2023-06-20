@@ -1,0 +1,12 @@
+body {
+  background: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  color: #212121;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 2rem;
+  height: 100%;
+}

@@ -1,0 +1,65 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.wrapper > div {
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.title {
+  font-weight: 600;
+  color: rgba(53, 53, 53, 0.5);
+  margin-bottom: 1rem;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.drop-content {
+  border: 1px solid #212121;
+  border-top: none;
+}
+
+.product-drop {
+  padding: 1rem;
+}
+
+.product-drop-list a {
+  text-decoration: none;
+  color: #212121;
+}
+
+.product-drop-list a:hover {
+  opacity: 0.8;
+}
+
+.product-drop-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.product-drop-list li {
+  list-style-type: none;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.sort-drop {
+  padding: 1rem;
+}
+
+.sort {
+  margin-bottom: 3rem;
+}
+
+input {
+  margin-right: 0.5rem;
+}

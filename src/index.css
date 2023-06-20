@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  color: #212121;
+}
+.css-13cymwt-control {
+  border-color: rgb(33, 33, 33, 0.7) !important;
+  border-radius: 0 !important;
+  padding: 0.05rem !important;
+}
+.css-t3ipsp-control {
+  box-shadow: none !important;
+
+  border-color: rgb(33, 33, 33, 0.7) !important;
+}
+
+.css-t3ipsp-control:hover,
+.css-t3ipsp-control:focus {
+  border-width: 2px !important;
+  border-color: black !important ;
+}
+
+.css-1dimb5e-single {
+  color: rgb(33, 33, 33, 0.7) !important;
+}

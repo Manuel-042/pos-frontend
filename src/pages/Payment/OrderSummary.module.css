@@ -1,0 +1,85 @@
+.order {
+  padding: 1rem;
+}
+
+.form {
+  display: flex !important;
+  justify-content: center;
+  margin-top: 0.7rem;
+  border: 1px solid black;
+}
+
+.input {
+  padding: 0.5rem;
+  padding-left: 1rem;
+  font-size: 0.9rem;
+  border: none;
+  outline: none;
+  width: 80%;
+}
+
+.button {
+  border: none;
+  background: rgb(3, 3, 3);
+  color: white;
+  font-size: 0.9rem;
+  text-align: center;
+  height: 45px;
+  margin-top: 0.7rem;
+}
+
+.addBtn {
+  border: none;
+  background: rgb(3, 3, 3);
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 0.5rem;
+  width: 20%;
+}
+
+.button:hover {
+  background-color: #0c0b0b;
+}
+
+.pay {
+  font-size: 1rem;
+  padding: 0.72rem 10rem;
+  margin-top: 0.3rem;
+  width: 100%;
+  text-align: center;
+  color: white;
+  cursor: not-allowed;
+}
+
+.show {
+  cursor: pointer;
+}
+
+.amount {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.amount span {
+  float: right;
+}
+
+.total {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.cart-display {
+  margin: 1rem 0 1rem;
+  border: 1px solid #212121;
+  padding: 0.65rem;
+}
+
+.order-items {
+  display: flex;
+  justify-content: space-between;
+}

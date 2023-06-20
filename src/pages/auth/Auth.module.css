@@ -1,0 +1,55 @@
+.auth {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.image {
+  height: 100vh;
+  width: 53vw;
+  position: relative;
+}
+
+img.images {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.wrapper {
+  position: absolute;
+  width: 40ch;
+  bottom: 40px;
+  margin-left: 2rem;
+}
+
+.quote {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.slider {
+  display: flex;
+  gap: 0.3rem;
+  margin-top: 1rem;
+}
+
+.slider span {
+  width: 70px;
+  height: 3px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.slider span.active {
+  background-color: #420420;
+}
+
+.content {
+  display: grid;
+  width: 47vw;
+  place-content: center;
+}

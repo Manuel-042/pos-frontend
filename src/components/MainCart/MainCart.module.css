@@ -1,0 +1,38 @@
+.layout .title {
+  text-align: center;
+}
+
+.cart {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+.title {
+  margin: 2rem 0 1.3rem;
+}
+
+.order-list {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  max-height: 400px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+}
+
+.order-list::-webkit-scrollbar {
+  width: 5px;
+}
+
+.order-list::-webkit-scrollbar-track {
+  background: white;
+}
+
+.order-list::-webkit-scrollbar-thumb {
+  background: #212121;
+  border-radius: 5px;
+}
